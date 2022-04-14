@@ -59,7 +59,7 @@ Final position: the user enters instructions for a specific bee, and visualizes 
 Libraries and tools used for this development:
 
 - [React JS] - Javascript library for Web development!
-- [Visual studio code] - most use IDE for web applications
+- [Visual studio code] - mostly use IDE for web applications
 - [Axios] - Promise-based HTTP Client for node.js and the browser.
 - [Material UI] - MUI offers a comprehensive suite of UI tools to help you ship new features faster
 

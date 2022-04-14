@@ -10,8 +10,11 @@ import AddCircleIcon from "@mui/icons-material/AddCircle";
 import ButtonGroup from "@mui/material/ButtonGroup";
 
 function AddBeeButtons({ onClickAddBee, setBeeRotation, onClickNext }) {
+  // String with the sequence of moves for the current bee
   const [moves, setMoves] = useState("");
+  // Degrees that the current bee is rotated
   const [degrees, setDegrees] = useState(0);
+  // Callbacks for the moves and initial state of the bee
   const onClickMoveRotateRight = () => {
     setMoves(moves + "R");
   };
